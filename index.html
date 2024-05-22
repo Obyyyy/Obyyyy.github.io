@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center section-title">About Me</h2>
+                <p class="lead text-center section-lead">I'm a web developer with a passion for creating stunning and efficient websites.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-center">
+                        <img src="profile.jpg" class="img-fluid rounded-circle shadow-sm" alt="Profile Picture" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mt-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et nisi sapien. Donec sit amet diam at elit egestas malesuada a sit amet odio. Cras vitae tortor enim. Phasellus fermentum justo at urna varius, at aliquet
+                            risus scelerisque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center section-title">My Projects</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="project1.jpg" class="card-img-top" alt="Project 1" />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 1</h5>
+                                <p class="card-text">Description of project 1.</p>
+                                <span class="badge badge-primary">HTML</span>
+                                <span class="badge badge-danger">Laravel</span>
+                                <a href="#" class="btn btn-primary mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="project2.jpg" class="card-img-top" alt="Project 2" />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">Description of project 2.</p>
+                                <span class="badge badge-success">Node.js</span>
+                                <span class="badge badge-info">React</span>
+                                <a href="#" class="btn btn-primary mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="project3.jpg" class="card-img-top" alt="Project 3" />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Description of project 3.</p>
+                                <span class="badge badge-warning">JavaScript</span>
+                                <span class="badge badge-secondary">CSS</span>
+                                <a href="#" class="btn btn-primary mt-3">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center section-title">Contact Me</h2>
+                <p class="lead text-center section-lead">Feel free to connect with me on social media or send me an email.</p>
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline-primary btn-lg m-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/yourprofile" class="btn btn-outline-dark btn-lg m-2"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://twitter.com/yourprofile" class="btn btn-outline-info btn-lg m-2"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="mailto:yourname@example.com" class="btn btn-outline-danger btn-lg m-2"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-4 bg-white shadow-sm">
+            <div class="container">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
