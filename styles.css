@@ -103,8 +103,14 @@ body {
     height: 300px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
     .card-body {
-        height: 260px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-body {
+        height: 240px;
     }
 }
