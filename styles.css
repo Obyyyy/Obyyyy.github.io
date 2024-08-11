@@ -105,6 +105,28 @@ body {
     height: 300px;
 }
 
+.btn-outline-dark {
+    /* border: 2px solid; */
+    /* border-color: #007bff; */
+    color: #343a40;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.more-project {
+    border: 2px solid;
+    font-size: medium;
+}
+
+.btn-outline-primary:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
 @media screen and (max-width: 992px) {
     .card-body {
         height: 280px;
