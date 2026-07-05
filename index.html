@@ -1,221 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Personal Website</title>
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <link rel="stylesheet" href="styles.css" />
+        <title>Muhammad Qalby</title>
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/a39182c187.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Muhammad Qalby</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+        <div class="nav">
+            <div class="nav-inner">
+                <div class="nav-brand">MUHAMMAD <span>QALBY</span></div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#certifications">CERTS</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+
+        <div class="wrap hero" id="profile">
+            <div class="file-tab">PORTOFOLIO FILE</div>
+            <div class="hero-grid">
+                <div class="hero-card hardbox">
+                    <h1 class="hero-name display">Muhammad<br />Qalby, S.Kom</h1>
+                    <div class="hero-role">FULL-STACK DEVELOPER · CLOUD & DATA ENTHUSIAST</div>
+                    <p class="hero-desc">
+                        Information Technology graduate from Universitas Lambung Mangkurat with a strong foundation in full-stack web development. Experienced in building scalable applications with Laravel and Node.js, designing cloud infrastructure
+                        on Google Cloud Platform, and working with data analysis and machine learning to solve real-world problems.
+                    </p>
+                    <div class="hero-contacts">
+                        <a class="contact-chip" href="mailto:muhammadqalby00@gmail.com"><i class="fa-solid fa-envelope"></i> muhammadqalby00@gmail.com</a>
+                        <a class="contact-chip" href="#contact"><i class="fa-solid fa-location-dot"></i> Palangka Raya, Central Kalimantan</a>
+                        <a class="contact-chip social" href="tel:081345336291"><i class="fa-brands fa-square-whatsapp"></i> +62 813-4533-6291</a>
+                        <a class="contact-chip social" href="https://www.instagram.com/obyyyy_0ne/" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i> Ig: @obyyyy_0ne</a>
+                        <a class="contact-chip social" href="https://www.linkedin.com/in/obyy/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn: obyy</a>
+                    </div>
+                </div>
+                <div class="stamp-panel hardbox">
+                    <div class="id-photo"><img src="assets/images/Muhamamd_Qalby.jpg" alt="Muhammad Qalby" /></div>
+                    <div class="stamp-rotate">IT GRADUATE</div>
+                    <div class="gpa-tag">GRADUATION GPA<br /><b>3.82</b> / 4.00</div>
                 </div>
             </div>
-        </nav>
+        </div>
 
-        <!-- About Section -->
-        <section id="about" class="py-5">
-            <div class="container">
-                <!-- <h2 class="text-center mb-4">About Me</h2> -->
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <img src="images/profile.png" class="profile-img mx-auto d-block" alt="Profile Picture" />
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Muhammad Qalby</h3>
-                        <p>Web Developer | Cloud Engineer</p>
-                        <p>
-                            Hello, I'm an undergraduate student majoring in Information Technology at Lambung Mangkurat University. Proficient in web development, I have extensive hands-on experience in developing applications using Laravel and
-                            Node.js. Additionally, I have a lot of experience in Cloud Computing, particularly with Google Cloud Platform. Committed to responsibility and driven by a passion for continuous learning, I am adept at collaborative
-                            teamwork.
+        <div class="wrap" id="experience">
+            <section>
+                <div class="eyebrow">Track Record</div>
+                <h2 class="section-title display">Work Experience</h2>
+
+                <div class="exp-card hardbox">
+                    <div class="exp-index">02</div>
+                    <div class="exp-body">
+                        <div class="exp-top">
+                            <div>
+                                <p class="exp-role">Administrative Staff</p>
+                                <p class="exp-org">MIS Fathul Iman — Palangka Raya, Central Kalimantan</p>
+                            </div>
+                            <div class="exp-date">MAR 2026 — PRESENT</div>
+                        </div>
+                        <p class="exp-desc">
+                            Manage school administration: drafting, filing, and organizing operational documents, and actively contribute to committees for various school activities. Apply an IT background by building the school's profile website and
+                            a web-based attendance system using Laravel to support the digitalization of teacher and staff workflows. Use Microsoft Word and Excel extensively for data processing and daily reporting.
                         </p>
-                        <a href="https://drive.google.com/file/d/1Fi1xNem_6cft1x7eICb6w6s_n0iI29UV/view?usp=sharing" class="btn btn-dark btn-lg">Download CV</a>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4">My Skills</h2>
-                <div class="skill-grid">
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fas fa-code fa-2x mr-3"></i>
-                            <span class="skill-text">HTML</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-css3-alt fa-2x mr-3"></i>
-                            <span class="skill-text">CSS</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-bootstrap fa-2x mr-3"></i>
-                            <span class="skill-text">Bootstrap</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-php fa-2x mr-3"></i>
-                            <span class="skill-text">PHP</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-laravel fa-2x mr-3"></i>
-                            <span class="skill-text">Laravel</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-js fa-2x mr-3"></i>
-                            <span class="skill-text">JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-node fa-2x mr-3"></i>
-                            <span class="skill-text">Node.js</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fas fa-database fa-2x mr-3"></i>
-                            <span class="skill-text">MySQL</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-google fa-2x mr-3"></i>
-                            <span class="skill-text">Cloud Computing (GCP)</span>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <i class="fab fa-github fa-2x mr-3"></i>
-                            <span class="skill-text">Git</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="py-5">
-            <div class="container">
-                <h2 class="text-center mb-4">My Projects</h2>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://github.com/Obyyyy/dukung-karya.git" class="project" style="text-decoration: none">
-                            <div class="card mb-4 shadow-sm project-card">
-                                <img src="images/dukung-karya.png" class="project-img" alt="Dukung Karya" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Dukung Karya</h5>
-                                    <p class="card-text">Dukung Karya is a crowdfunding web platform that allows users to raise funds for creative, innovative projects and various types of businesses.</p>
-                                    <div class="project-label">HTML</div>
-                                    <div class="project-label">CSS</div>
-                                    <div class="project-label">Bootstrap</div>
-                                    <div class="project-label">MySQL</div>
-                                    <div class="project-label">Laravel</div>
-                                    <div class="project-label">Midtrans</div>
-                                </div>
+                <div class="exp-card hardbox">
+                    <div class="exp-index">01</div>
+                    <div class="exp-body">
+                        <div class="exp-top">
+                            <div>
+                                <p class="exp-role">Google Cloud Arcade Facilitator 2025</p>
+                                <p class="exp-org">PT Google Cloud Indonesia — Remote</p>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://github.com/Obyyyy/signify-api.git" class="project" style="text-decoration: none">
-                            <div class="card mb-4 shadow-sm project-card">
-                                <img src="images/signify-api.png" class="project-img" alt="Signify API" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Signify API</h5>
-                                    <p class="card-text">This project contains the process of developing Restful API as a complementary feature in the Signify application as part of Bangkit 2023's Product-based Capstone Project.</p>
-                                    <div class="project-label">Node.js</div>
-                                    <div class="project-label">Express.js</div>
-                                    <div class="project-label">Postman</div>
-                                    <div class="project-label">JWT</div>
-                                    <div class="project-label">Google Cloud</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://github.com/Obyyyy/restoran.git" class="project" style="text-decoration: none">
-                            <div class="card mb-4 shadow-sm project-card">
-                                <img src="images/restoran.png" class="project-img" alt="Restoran" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Restoran</h5>
-                                    <p class="card-text">Restoran is a management system website for a restaurant. This project was built using Laravel and uses Bootstrap web templates.</p>
-                                    <div class="project-label">HTML</div>
-                                    <div class="project-label">CSS</div>
-                                    <div class="project-label">Bootstrap</div>
-                                    <div class="project-label">Laravel</div>
-                                    <div class="project-label">MySQL</div>
-                                    <div class="project-label">Paypal</div>
-                                </div>
-                            </div>
-                        </a>
+                            <div class="exp-date">JUL 2025 — SEP 2025</div>
+                        </div>
+                        <p class="exp-desc">
+                            Served as a facilitator for a gamified coding scholarship program in cloud computing and AI, mentoring more than 90 participants. Provided tutorials, guidance, and technical support to help participants complete lab
+                            modules and earn digital badges. Developed mentoring and problem-solving skills, along with a deeper understanding of Google Cloud services and artificial intelligence.
+                        </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center">
-                    <div class="text-left mt-4">
-                        <a href="https://github.com/Obyyyy?tab=repositories" class="btn btn-outline-dark more-project btn-lg d-flex align-items-center justify-content-center fs-1"><i class="fab fa-github fa-2x mr-3"></i>More Projects on GitHub </a>
+            </section>
+        </div>
+
+        <div class="wrap" id="projects">
+            <section>
+                <div class="eyebrow">Selected Work</div>
+                <h2 class="section-title display">Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card hardbox">
+                        <div class="project-index">PROJECT 01</div>
+                        <p class="project-name">MIS Fathul Iman - Profile website and staff attendance system</p>
+                        <p class="project-desc">
+                            A modern company profile website and automated staff attendance system built with Laravel, Tailwind CSS, and Filament PHP. It streamlines workforce management with real-time GPS-based check-ins to ensure location accuracy
+                            and features automated notification reminders to boost daily attendance compliance.
+                        </p>
+                        <div class="project-tags"><span>Laravel</span><span>Filament</span><span>MySQL</span></div>
+                        <a class="project-link" href="https://misfathuliman-praya.sch.id/" target="_blank" rel="noopener">VIEW PROJECT →</a>
+                    </div>
+
+                    <div class="project-card hardbox">
+                        <div class="project-index">PROJECT 02</div>
+                        <p class="project-name">Restoran - restaurant food ordering system</p>
+                        <p class="project-desc">
+                            A web-based restaurant food ordering system built with Laravel, featuring a comprehensive CRUD framework. It simplifies restaurant management by providing efficient tools to manage food menus, track customer orders, and
+                            streamline daily dining operations in real-time.
+                        </p>
+                        <div class="project-tags"><span>Laravel</span><span>Paypal</span></div>
+                        <a class="project-link" href="https://github.com/Obyyyy/restoran" target="_blank" rel="noopener">VIEW PROJECT →</a>
+                    </div>
+
+                    <div class="project-card hardbox">
+                        <div class="project-index">PROJECT 03</div>
+                        <p class="project-name">Signify API - Bangkit Capstone</p>
+                        <p class="project-desc">This project contains the process of developing Restful API as a complementary feature in the Signify application as part of Bangkit 2023's Product-based Capstone Project.</p>
+                        <div class="project-tags"><span>Node.js</span><span>REST API</span><span>JWT</span></div>
+                        <a class="project-link" href="https://github.com/Obyyyy/signify-api" target="_blank" rel="noopener">VIEW PROJECT →</a>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <!-- Contact Section -->
-        <section id="contact" class="py-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4">Contact Me</h2>
-                <p class="lead text-center">Feel free to connect with me on social media or send me an email.</p>
-                <div class="row">
-                    <div class="col-md-8 mx-auto text-center">
-                        <a href="https://linkedin.com/in/obyy" class="btn btn-outline-primary btn-lg m-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <a href="https://github.com/obyyyy" class="btn btn-outline-dark btn-lg m-2"><i class="fab fa-github"></i> GitHub</a>
-                        <a href="https://wa.me/6281345336291" class="btn btn-outline-success btn-lg m-2"><i class="fab fa-whatsapp"></i> Whatsapp</a>
-                        <a href="mailto:muhammadqolby701@gmail.com" class="btn btn-outline-danger btn-lg m-2"><i class="fas fa-envelope"></i> Email</a>
+        <div class="wrap" id="skills">
+            <section>
+                <div class="eyebrow">Toolkit</div>
+                <h2 class="section-title display">Skills</h2>
+                <div class="skill-cloud">
+                    <span class="skill-stamp"><i class="fa-brands fa-chrome"></i> Web Development</span>
+                    <span class="skill-stamp"><i class="fa-brands fa-laravel"></i> Laravel</span>
+                    <span class="skill-stamp"><i class="fa-brands fa-php"></i> PHP</span>
+                    <span class="skill-stamp"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                    <span class="skill-stamp"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-server"></i> SQL</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-code"></i> HTML + CSS</span>
+                    <span class="skill-stamp"><i class="fa-brands fa-github"></i> Git & GitHub</span>
+                    <span class="skill-stamp"><i class="fa-regular fa-cloud"></i> Cloud Computing</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-chart-pie"></i> Data Science</span>
+                    <span class="skill-stamp"><i class="fa-brands fa-chrome"></i> Programming</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-file-word"></i> Microsoft Office</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-users"></i> Teamwork</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-calendar-day"></i> Time Management</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-person-falling-burst"></i> Adaptation</span>
+                </div>
+            </section>
+        </div>
+
+        <div class="wrap" id="certifications">
+            <section>
+                <div class="eyebrow">Certified Stamps</div>
+                <h2 class="section-title display">Certifications</h2>
+                <p class="mono" style="font-size: 11px; opacity: 0.6; margin: -18px 0 22px 0">Tap any stamp to view the certificate</p>
+                <div class="cert-grid">
+                    <a class="cert-stamp" href="https://www.credly.com/badges/186212df-202c-4d61-a141-eef533041040/public_url" target="_blank" rel="noopener">
+                        <div class="cert-issuer">GOOGLE CLOUD</div>
+                        <div class="cert-name">Associate Cloud Engineer</div>
+                        <div class="cert-valid">VALID MAR 2024 → MAR 2027</div>
+                    </a>
+                    <a class="cert-stamp" href="https://drive.google.com/file/d/1lj5j-AniA-qJKtkudQ4mVr8CTNmncZwY/view?usp=drive_link" target="_blank" rel="noopener">
+                        <div class="cert-issuer">ALIBABA CLOUD</div>
+                        <div class="cert-name">Alibaba Cloud Certified Associate</div>
+                        <div class="cert-valid">VALID SEP 2025 → SEP 2026</div>
+                    </a>
+                    <a class="cert-stamp" href="https://learn.microsoft.com/en-us/users/obyyyy/credentials/73f37e588144a5ed" target="_blank" rel="noopener">
+                        <div class="cert-issuer">MICROSOFT</div>
+                        <div class="cert-name">Azure Data Scientist Associate</div>
+                        <div class="cert-valid">VALID AUG 2025 → AUG 2026</div>
+                    </a>
+                </div>
+            </section>
+
+            <section style="padding-top: 12px">
+                <div class="eyebrow">Additional Learning</div>
+                <h2 class="section-title display" style="font-size: clamp(22px, 3.5vw, 30px); margin-bottom: 6px">Training</h2>
+                <p class="mono" style="font-size: 11px; opacity: 0.6; margin: 0 0 16px 0">Tap any row to view the certificate on Drive</p>
+                <div class="train-list hardbox" style="padding: 6px 22px" id="trainList"></div>
+                <div class="pagination" id="trainPagination"></div>
+            </section>
+        </div>
+
+        <div class="wrap" id="education">
+            <section>
+                <div class="eyebrow">Background</div>
+                <h2 class="section-title display">Education</h2>
+                <div class="edu-card hardbox">
+                    <div>
+                        <p class="edu-degree">B.Sc. in Information Technology</p>
+                        <p class="edu-school">Universitas Lambung Mangkurat — Banjarmasin, South Kalimantan · 2021 – 2025</p>
+                    </div>
+                    <div class="edu-gpa">
+                        <span class="num">3.82</span>
+                        <span class="lbl">GPA / 4.00</span>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <!-- Footer -->
-        <footer class="text-center py-4 footer">
-            <div class="container">
-                <p>&copy; 2024 Muhammad Qalby. All rights reserved.</p>
+        <div class="contact-cta" id="contact">
+            <div class="wrap" style="padding: 64px 20px">
+                <div class="eyebrow" style="background: var(--volt); color: var(--ink)">Open a Line</div>
+                <h2 class="section-title display">Let's Connect</h2>
+                <p class="mono" style="font-size: 14px; opacity: 0.85; max-width: 50ch; margin: 0 auto">Open to opportunities in full-stack development, cloud engineering, and data.</p>
+                <div class="cta-buttons">
+                    <a class="cta-btn" href="mailto:muhammadqalby00@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> SEND EMAIL</a>
+                    <a class="cta-btn" href="https://wa.me/+6289512198092" target="_blank"><i class="fa-brands fa-whatsapp"></i> +62 813-4533-6291</a>
+                    <a class="cta-btn" href="https://www.instagram.com/obyyyy_0ne" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
+                    <a class="cta-btn" href="https://www.linkedin.com/in/obyy" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
+                </div>
             </div>
-        </footer>
+        </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <footer>© 2026 MUHAMMAD QALBY</footer>
+
+        <script src="assets/js/index.js"></script>
     </body>
 </html>
