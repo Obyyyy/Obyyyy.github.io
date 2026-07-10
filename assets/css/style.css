@@ -145,6 +145,13 @@ section {
     content: "//";
     color: var(--volt);
 }
+.eyebrow--invert {
+    background: var(--volt);
+    color: var(--ink);
+}
+.eyebrow--invert::before {
+    color: var(--ink);
+}
 h2.section-title {
     font-size: clamp(28px, 4.5vw, 44px);
     margin: 0 0 32px 0;

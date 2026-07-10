@@ -37,13 +37,14 @@
                     <h1 class="hero-name display">Muhammad<br />Qalby, S.Kom</h1>
                     <div class="hero-role">FULL-STACK DEVELOPER · CLOUD & DATA ENTHUSIAST</div>
                     <p class="hero-desc">
-                        Information Technology graduate from Universitas Lambung Mangkurat with a strong foundation in full-stack web development. Experienced in building scalable applications with Laravel and Node.js, designing cloud infrastructure
-                        on Google Cloud Platform, and working with data analysis and machine learning to solve real-world problems.
+                        Information Technology graduate from Universitas Lambung Mangkurat with a strong foundation in full-stack web development, cloud computing, and data science. Experienced in building scalable applications using Laravel and
+                        Node.js, while possessing advanced proficiency in data management and documentation through Microsoft Excel and Word. A detail-oriented professional skilled in leveraging technical development and structured data analysis to
+                        solve real-world problems.
                     </p>
                     <div class="hero-contacts">
                         <a class="contact-chip" href="mailto:muhammadqalby00@gmail.com"><i class="fa-solid fa-envelope"></i> muhammadqalby00@gmail.com</a>
                         <a class="contact-chip" href="#contact"><i class="fa-solid fa-location-dot"></i> Palangka Raya, Central Kalimantan</a>
-                        <a class="contact-chip social" href="tel:081345336291"><i class="fa-brands fa-square-whatsapp"></i> +62 813-4533-6291</a>
+                        <a class="contact-chip social" href="https://wa.me/+6281345336291"><i class="fa-brands fa-square-whatsapp"></i> +62 813-4533-6291</a>
                         <a class="contact-chip social" href="https://www.instagram.com/obyyyy_0ne/" target="_blank" rel="noopener"><i class="fa-brands fa-square-instagram"></i> Ig: @obyyyy_0ne</a>
                         <a class="contact-chip social" href="https://www.linkedin.com/in/obyy/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn: obyy</a>
                     </div>
@@ -61,39 +62,8 @@
                 <div class="eyebrow">Track Record</div>
                 <h2 class="section-title display">Work Experience</h2>
 
-                <div class="exp-card hardbox">
-                    <div class="exp-index">02</div>
-                    <div class="exp-body">
-                        <div class="exp-top">
-                            <div>
-                                <p class="exp-role">Administrative Staff</p>
-                                <p class="exp-org">MIS Fathul Iman — Palangka Raya, Central Kalimantan</p>
-                            </div>
-                            <div class="exp-date">MAR 2026 — PRESENT</div>
-                        </div>
-                        <p class="exp-desc">
-                            Manage school administration: drafting, filing, and organizing operational documents, and actively contribute to committees for various school activities. Apply an IT background by building the school's profile website and
-                            a web-based attendance system using Laravel to support the digitalization of teacher and staff workflows. Use Microsoft Word and Excel extensively for data processing and daily reporting.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="exp-card hardbox">
-                    <div class="exp-index">01</div>
-                    <div class="exp-body">
-                        <div class="exp-top">
-                            <div>
-                                <p class="exp-role">Google Cloud Arcade Facilitator 2025</p>
-                                <p class="exp-org">PT Google Cloud Indonesia — Remote</p>
-                            </div>
-                            <div class="exp-date">JUL 2025 — SEP 2025</div>
-                        </div>
-                        <p class="exp-desc">
-                            Served as a facilitator for a gamified coding scholarship program in cloud computing and AI, mentoring more than 90 participants. Provided tutorials, guidance, and technical support to help participants complete lab
-                            modules and earn digital badges. Developed mentoring and problem-solving skills, along with a deeper understanding of Google Cloud services and artificial intelligence.
-                        </p>
-                    </div>
-                </div>
+                <div id="expList"></div>
+                <div class="pagination" id="expPagination"></div>
             </section>
         </div>
 
@@ -101,37 +71,8 @@
             <section>
                 <div class="eyebrow">Selected Work</div>
                 <h2 class="section-title display">Projects</h2>
-                <div class="project-grid">
-                    <div class="project-card hardbox">
-                        <div class="project-index">PROJECT 01</div>
-                        <p class="project-name">MIS Fathul Iman - Profile website and staff attendance system</p>
-                        <p class="project-desc">
-                            A modern company profile website and automated staff attendance system built with Laravel, Tailwind CSS, and Filament PHP. It streamlines workforce management with real-time GPS-based check-ins to ensure location accuracy
-                            and features automated notification reminders to boost daily attendance compliance.
-                        </p>
-                        <div class="project-tags"><span>Laravel</span><span>Filament</span><span>MySQL</span></div>
-                        <a class="project-link" href="https://misfathuliman-praya.sch.id/" target="_blank" rel="noopener">VIEW PROJECT →</a>
-                    </div>
-
-                    <div class="project-card hardbox">
-                        <div class="project-index">PROJECT 02</div>
-                        <p class="project-name">Restoran - restaurant food ordering system</p>
-                        <p class="project-desc">
-                            A web-based restaurant food ordering system built with Laravel, featuring a comprehensive CRUD framework. It simplifies restaurant management by providing efficient tools to manage food menus, track customer orders, and
-                            streamline daily dining operations in real-time.
-                        </p>
-                        <div class="project-tags"><span>Laravel</span><span>Paypal</span></div>
-                        <a class="project-link" href="https://github.com/Obyyyy/restoran" target="_blank" rel="noopener">VIEW PROJECT →</a>
-                    </div>
-
-                    <div class="project-card hardbox">
-                        <div class="project-index">PROJECT 03</div>
-                        <p class="project-name">Signify API - Bangkit Capstone</p>
-                        <p class="project-desc">This project contains the process of developing Restful API as a complementary feature in the Signify application as part of Bangkit 2023's Product-based Capstone Project.</p>
-                        <div class="project-tags"><span>Node.js</span><span>REST API</span><span>JWT</span></div>
-                        <a class="project-link" href="https://github.com/Obyyyy/signify-api" target="_blank" rel="noopener">VIEW PROJECT →</a>
-                    </div>
-                </div>
+                <div class="project-grid" id="projectGrid"></div>
+                <div class="pagination" id="projectPagination"></div>
             </section>
         </div>
 
@@ -143,16 +84,16 @@
                     <span class="skill-stamp"><i class="fa-brands fa-chrome"></i> Web Development</span>
                     <span class="skill-stamp"><i class="fa-brands fa-laravel"></i> Laravel</span>
                     <span class="skill-stamp"><i class="fa-brands fa-php"></i> PHP</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-file-word"></i> Microsoft Office</span>
                     <span class="skill-stamp"><i class="fa-brands fa-node-js"></i> Node.js</span>
                     <span class="skill-stamp"><i class="fa-brands fa-python"></i> Python</span>
                     <span class="skill-stamp"><i class="fa-solid fa-server"></i> SQL</span>
                     <span class="skill-stamp"><i class="fa-solid fa-code"></i> HTML + CSS</span>
                     <span class="skill-stamp"><i class="fa-brands fa-github"></i> Git & GitHub</span>
-                    <span class="skill-stamp"><i class="fa-regular fa-cloud"></i> Cloud Computing</span>
+                    <span class="skill-stamp"><i class="fa-solid fa-cloud"></i> Cloud Computing</span>
                     <span class="skill-stamp"><i class="fa-solid fa-chart-pie"></i> Data Science</span>
                     <span class="skill-stamp"><i class="fa-brands fa-chrome"></i> Programming</span>
-                    <span class="skill-stamp"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
-                    <span class="skill-stamp"><i class="fa-solid fa-file-word"></i> Microsoft Office</span>
                     <span class="skill-stamp"><i class="fa-solid fa-users"></i> Teamwork</span>
                     <span class="skill-stamp"><i class="fa-solid fa-calendar-day"></i> Time Management</span>
                     <span class="skill-stamp"><i class="fa-solid fa-person-falling-burst"></i> Adaptation</span>
@@ -212,12 +153,12 @@
 
         <div class="contact-cta" id="contact">
             <div class="wrap" style="padding: 64px 20px">
-                <div class="eyebrow" style="background: var(--volt); color: var(--ink)">Open a Line</div>
+                <div class="eyebrow eyebrow--invert">Open a Line</div>
                 <h2 class="section-title display">Let's Connect</h2>
                 <p class="mono" style="font-size: 14px; opacity: 0.85; max-width: 50ch; margin: 0 auto">Open to opportunities in full-stack development, cloud engineering, and data.</p>
                 <div class="cta-buttons">
                     <a class="cta-btn" href="mailto:muhammadqalby00@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i> SEND EMAIL</a>
-                    <a class="cta-btn" href="https://wa.me/+6289512198092" target="_blank"><i class="fa-brands fa-whatsapp"></i> +62 813-4533-6291</a>
+                    <a class="cta-btn" href="https://wa.me/+6281345336291" target="_blank"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
                     <a class="cta-btn" href="https://www.instagram.com/obyyyy_0ne" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
                     <a class="cta-btn" href="https://www.linkedin.com/in/obyy" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
                 </div>
